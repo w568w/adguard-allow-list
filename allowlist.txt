@@ -1,0 +1,11 @@
+! Title: w568w's Allowlist
+! Description: Allow some harmless domains to save resources
+
+# Usage: unknown (Weixin PCDN Login?)
+# Why unblocked: Some software will repeatedly query if returning NXDOMAIN or 0.0.0.0.
+# Why safe: This domain resolves to 0.0.0.1.
+# Related links: 
+# - https://www.reddit.com/r/pihole/comments/16x2x3h/does_anyone_know_what/
+# - https://forum.openwrt.org/t/dns-rebind-flooding-with-query-to-apd-pcdnwxlogin-teg-tencent-cloud-net/139433/
+@@apd-pcdnwxlogin.teg.tencent-cloud.net^$important
+
