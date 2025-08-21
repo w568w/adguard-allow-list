@@ -1,0 +1,1 @@
+# adguard-allow-list
